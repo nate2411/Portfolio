@@ -1,0 +1,102 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.banner-area {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/22/23/03/hardwood-1851071__340.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.body {
+  margin: 0%;
+  padding: 0%;
+}
+.header {
+  padding: 15px 16px;
+}
+
+.menu {
+  width: 42%;
+  float: right;
+  list-style: none;
+  display: flex;
+}
+.menu li {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: black;
+}
+
+.menus a:hover {
+  color: black;
+}
+.menu li a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  margin: 1% 10%;
+  padding: 20px 0;
+
+  float: left;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: bla;
+  text-align: center;
+}
+
+.banner-text h2 {
+  font-family: sans-serif;
+  margin: 0%;
+  font-size: 55px;
+  color: white;
+}
+
+.banner-text h2 span {
+  color: orange;
+}
+
+.banner-text p {
+  font-size: 22px;
+  margin: 0%;
+  font-family: poppins;
+}
+
+.banner-text a {
+  text-decoration: none;
+  border-radius: 1px solid white;
+  font-size: 17px;
+  padding: 10px 35px;
+  color: white;
+  display: inline-block;
+  margin-top: 5%;
+  font-family: poppins;
+  text-transform: uppercase;
+}
+.picture {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  /* margin-right: 10%; */
+  min-width: 200px;
+  min-height: 200px;
+  /* display: flex; */
+  /* align-self: center; */
+}
