@@ -17,8 +17,8 @@ body {
 
 .card-container {
   display: flex;
-
   padding: 5% 10%;
+  row-gap: 50px;
 }
 
 .card-container-heading {
@@ -27,6 +27,7 @@ body {
   color: black;
   font-size: 40px;
   padding: 1rem;
+  margin-top: 2px;
 }
 
 .card-container-heading span {
@@ -37,12 +38,15 @@ body {
   width: 48%;
   margin: 1%;
   min-width: 300px;
-  display: flex;
-  flex-direction: column;
+  max-width: 300px;
+  display: grid;
 
   border-radius: 10px;
   overflow: hidden;
   padding: 1%;
+  border-radius: 1px;
+  background: #ececec;
+  box-shadow: 20px 20px 21px #c9c9c9, -20px -20px 21px #ffffff;
 }
 
 .card-img {
@@ -65,6 +69,9 @@ body {
   justify-content: space-between;
   justify-content: center;
   text-align-last: center;
+  border-radius: 50px;
+  background: #cfcfcf;
+  box-shadow: 20px 20px 21px #b0b0b0, -20px -20px 21px #eeeeee;
 }
 
 .button2 {
@@ -77,11 +84,12 @@ body {
   margin-right: 1%;
 }
 
+.card-buttons2:hover {
+  color: blue;
+}
 .button2:hover {
   font-size: 1.1em;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(1.5px);
-  -webkit-backdrop-filter: blur(1.5px);
+  color: blue;
 }
 
 .card-heading,

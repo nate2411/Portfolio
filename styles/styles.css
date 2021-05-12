@@ -21,17 +21,20 @@
 }
 
 .menu {
-  width: 42%;
+  width: 40%;
   float: right;
   list-style: none;
   display: flex;
+  height: 90px;
+  margin-right: 20px;
 }
 .menu li {
   width: 100px;
   height: 50px;
-  line-height: 50px;
+  line-height: 80px;
   text-align: center;
   color: black;
+  margin: 0 20px;
 }
 
 .menus a:hover {
@@ -42,15 +45,21 @@
   font-family: sans-serif;
   color: black;
   text-transform: uppercase;
+  font-size: 17px;
+  border-radius: 17px;
+  position: fixed;
+  padding: 0 10px;
 }
 
 .logo {
   text-decoration: none;
   color: white;
-  margin: 1% 10%;
-  padding: 20px 0;
-
+  line-height: 1px;
+  padding: 0 10px;
+  font-weight: bold;
   float: left;
+  margin: 0 10px;
+  position: fixed;
 }
 
 .banner-content {
@@ -58,7 +67,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: bla;
+  color: black;
   text-align: center;
 }
 
