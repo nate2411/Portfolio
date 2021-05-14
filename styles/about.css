@@ -8,6 +8,7 @@
   width: 100%;
   min-height: 100vh;
   background-color: white;
+  padding-top: 50px;
 }
 
 .container {
@@ -80,6 +81,7 @@
   justify-content: flex-start;
   line-height: 4;
   font-size: 14px;
+  color: orange;
 }
 
 .social .left-social,
@@ -107,4 +109,83 @@
 .social .right-social .item {
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 50px;
+  }
+  .content-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .image-section {
+    float: none;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .image-section img {
+    width: 100%;
+  }
+  .container-section .title {
+    text-align: center;
+    font-size: 19px;
+  }
+  .content-section .content .button {
+    text-align: center;
+  }
+  .content-section .content .button a {
+    padding: 9px 30px;
+  }
+
+  .container-section .left-social .right-social {
+    text-align: center;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding: 30px;
+  }
+  .content-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .image-section {
+    float: none;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .image-section img {
+    width: 100%;
+  }
+  .container-section .title {
+    text-align: center;
+    font-size: 10px;
+  }
+  .content-section .content .button {
+    text-align: center;
+  }
+  .content-section .content .button a {
+    padding: 9px 30px;
+  }
+
+  .container-section .left-social .right-social {
+    text-align: center;
+    display: flex;
+  }
 }

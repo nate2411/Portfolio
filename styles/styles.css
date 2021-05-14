@@ -2,53 +2,60 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  z-index: 1;
 }
 
 .banner-area {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  background: orange;
+  z-index: 999;
+}
+
+#home {
   background-image: url(https://cdn.pixabay.com/photo/2016/11/22/23/03/hardwood-1851071__340.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
+  transition: 0.3s all ease-in;
 }
 
 .body {
   margin: 0%;
   padding: 0%;
 }
-.header {
-  padding: 15px 16px;
-}
 
 .menu {
-  width: 40%;
-  float: right;
+  z-index: 999;
   list-style: none;
   display: flex;
+  align-items: center;
   height: 90px;
   margin-right: 20px;
-}
-.menu li {
-  width: 100px;
-  height: 50px;
-  line-height: 80px;
-  text-align: center;
   color: black;
-  margin: 0 20px;
 }
 
-.menus a:hover {
+.menus a {
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
   color: black;
 }
-.menu li a {
-  text-decoration: none;
-  font-family: sans-serif;
-  color: black;
-  text-transform: uppercase;
-  font-size: 17px;
-  border-radius: 17px;
-  position: fixed;
-  padding: 0 10px;
+
+.menus :hover {
+  color: white;
 }
 
 .logo {
@@ -57,9 +64,11 @@
   line-height: 1px;
   padding: 0 10px;
   font-weight: bold;
-  float: left;
   margin: 0 10px;
-  position: fixed;
+}
+
+.logo:hover {
+  color: white;
 }
 
 .banner-content {

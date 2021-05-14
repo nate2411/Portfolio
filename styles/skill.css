@@ -6,6 +6,7 @@
 
 .bg {
   background-color: #c1c1c1;
+  padding-top: 100px;
 }
 body {
   /* background-color: #c1c1c1; */
@@ -18,7 +19,7 @@ body {
   text-align: center;
   color: white;
   padding: 1rem;
-  position: relative;
+
   font-size: 33px;
 }
 .header after {
@@ -62,6 +63,18 @@ body {
 }
 
 .img:hover {
-  color: blue;
+  color: white;
   transition: 0.3s all ease-in;
+}
+
+@media screen and (max-width: 990px) {
+  .container2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container2 {
+    grid-template-columns: 1fr;
+  }
 }

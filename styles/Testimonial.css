@@ -9,24 +9,26 @@
   height: 100%;
   place-items: center;
   text-align: center;
+  background-color: white;
+  padding-top: 100px;
 }
 
 .slider2 {
   max-width: 1150px;
   display: flex;
+  padding: 5% 10%;
+  row-gap: 50px;
 }
 
 .slider2 .card2 {
-  background: #e6e6e6;
   flex: 1;
   margin: 0 10px;
   border-radius: 1px;
-  background: #e6e6e6;
-  box-shadow: 20px 20px 60px #bfbfbf, -20px -20px 60px #ffffff;
+  background: orange;
 }
 
 .slider2 .card2 .img {
-  height: 200px;
+  height: 6 00px;
   width: 100%;
 }
 
@@ -56,10 +58,19 @@
 .card2 .sub-title {
   font-size: 15px;
   font-weight: 600;
-  color: orange;
+  color: white;
   line-height: 20px;
 }
 .card2 .content2 p {
   text-align: justify;
   margin: 10px 0;
+}
+
+@media screen and (max-width: 990px) {
+  .slider2 {
+    max-width: 1150px;
+    display: flex;
+    padding: 5% 10%;
+    row-gap: 50px;
+  }
 }
