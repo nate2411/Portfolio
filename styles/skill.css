@@ -62,6 +62,10 @@ body {
   color: grey;
 }
 
+.word {
+  color: white;
+}
+
 .img:hover {
   color: white;
   transition: 0.3s all ease-in;

@@ -94,7 +94,12 @@ body {
 .banner-text p {
   font-size: 22px;
   margin: 0%;
-  font-family: poppins;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.banner-text p:hover {
+  transition: 0.3s all ease-in;
+  color: white;
 }
 
 .banner-text a {
@@ -117,4 +122,23 @@ body {
   min-height: 200px;
   /* display: flex; */
   /* align-self: center; */
+}
+
+.container.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.container.about-section .image-section {
+  height: 500px;
+  width: 45%;
+  margin-right: auto;
+}
+
+.container.about-section .image-section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
