@@ -114,12 +114,12 @@ body {
   text-transform: uppercase;
 }
 .picture {
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 400px;
+  max-height: 400px;
   border-radius: 50%;
   /* margin-right: 10%; */
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 400px;
+  min-height: 400px;
   /* display: flex; */
   /* align-self: center; */
 }

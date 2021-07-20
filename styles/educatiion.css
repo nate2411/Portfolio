@@ -23,12 +23,16 @@ body {
   color: orange;
 }
 
+.landing-section h1 span {
+  color: black;
+}
+
 /* TIMELINE SECTION */
 .timeline-section {
   display: grid;
   align-items: center;
   justify-items: center;
-  grid: repeat(4, 1fr) / 1fr 10% 1fr;
+  grid: repeat(3, 1fr) / 1fr 10% 1fr;
 }
 
 .timeline-section .timeline-line {
@@ -37,7 +41,6 @@ body {
   border-radius: 5px;
   grid-row: 1 / 5;
   grid-column-start: 2;
-  color: orange;
 }
 
 .timeline-section .timeline-item {
