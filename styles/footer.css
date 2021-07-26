@@ -7,10 +7,10 @@
 footer {
   background: orange;
   height: auto;
-  width: 100vw;
+  width: 100%;
   font-family: sans-serif;
   padding-top: 20px;
-  color: white;
+  color: black;
 }
 
 .footer-content {

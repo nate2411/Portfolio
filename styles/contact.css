@@ -21,10 +21,13 @@
 
 .contact .content3 h1 {
   font-size: 36px;
-  font-weight: 500;
+  font-weight: bold;
   color: orange;
+  font-family: sans-serif;
 }
-
+.contact .content3 h1 span {
+  color: black;
+}
 .contact .content3 p {
   font-weight: bold;
   font-size: 20px;

@@ -33,6 +33,8 @@ body {
   align-items: center;
   justify-items: center;
   grid: repeat(3, 1fr) / 1fr 10% 1fr;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .timeline-section .timeline-line {
