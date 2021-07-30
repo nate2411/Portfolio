@@ -146,8 +146,5 @@ body {
     font-size: 10px;
   }
   .menu {
-    display: flex;
-    align-items: center;
-    margin-right: 5%;
   }
 }
